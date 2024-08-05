@@ -1,0 +1,61 @@
+.thank {
+  background-image: radial-gradient(circle at 50% 0, #232a34, #181e27 90%);
+  padding: 3.47rem 2.4rem 3.7rem;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 32.7rem;
+}
+.thank img {
+  margin-bottom: 2.4rem;
+}
+
+.score {
+  padding: 0.5rem 1.2rem 0.3rem;
+  background-color: #262e38;
+  border-radius: 2.25rem;
+  margin-bottom: 2.4rem;
+}
+.score p {
+  font-size: 1.4rem;
+  line-height: 1.57;
+  color: #fc7614;
+  font-weight: 400;
+}
+
+.thank h2 {
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.thank-text {
+  font-size: 1.4rem;
+  line-height: 1.57;
+  text-align: center;
+  color: #969fad;
+}
+
+@media (min-width: 90rem) {
+  .thank {
+    max-width: 41.2rem;
+    padding: 4.5rem 4rem 4.5rem 3.2rem;
+  }
+  .thank img {
+    margin-bottom: 3.2rem;
+  }
+  .score {
+    padding: 0.4rem 2rem 0.2rem;
+    margin-bottom: 3.2rem;
+  }
+  .thank h2 {
+    font-size: 2.8rem;
+  }
+  .thank-text,
+  .score p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+  }
+}

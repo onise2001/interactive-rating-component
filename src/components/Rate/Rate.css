@@ -1,0 +1,119 @@
+.rate {
+  background-image: radial-gradient(circle at 50% 0, #232a34, #181e27 90%);
+  border-radius: 1.5rem;
+  padding: 2.4rem 2.2rem 3.2rem 2.4rem;
+  max-width: 327px;
+  display: flex;
+  flex-direction: column;
+}
+
+.rate-img {
+  width: 4rem;
+  height: 4rem;
+  padding: 1.3rem;
+  margin-bottom: 1.6rem;
+  background-color: #262e38;
+  border-radius: 50%;
+}
+.rate-img img {
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.rate p {
+  font-size: 1.4rem;
+  line-height: 1.57;
+  color: #969fad;
+  margin-bottom: 2.4rem;
+  font-weight: 400;
+}
+
+.ratings {
+  display: flex;
+  gap: 1.7rem;
+  margin-bottom: 2.4rem;
+}
+
+.ratings button,
+.submit {
+  all: unset;
+
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.71;
+  text-align: center;
+}
+button:hover {
+  cursor: pointer;
+}
+
+.ratings button {
+  padding: 0.9rem 1.8rem;
+  letter-spacing: 0.18px;
+  text-align: center;
+  color: #7c8798;
+  background-color: #262e38;
+  border-radius: 50%;
+}
+.ratings button:hover {
+  background-color: #fc7614;
+  color: #fff;
+}
+
+.submit {
+  background-color: #fc7614;
+  color: #fff;
+  letter-spacing: 1.87px;
+  padding: 1.2rem 0;
+  border-radius: 2.25rem;
+  max-width: 100%;
+}
+
+.submit:hover,
+.submit:active {
+  background-color: #fff;
+  color: #fc7614;
+}
+
+@media (min-width: 90rem) {
+  .rate {
+    max-width: 41.2rem;
+    padding: 3.2rem 3.9rem 3.2rem 3.2rem;
+    border-radius: 3rem;
+  }
+  .rate-img {
+    margin-bottom: 3.2rem;
+    width: 4.8rem;
+    height: 4.8rem;
+    padding: 1.6rem;
+  }
+
+  h1 {
+    font-size: 2.8rem;
+    margin-bottom: 0.9rem;
+  }
+  .rate p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+  }
+  .ratings {
+    margin-bottom: 3.2rem;
+  }
+  .ratings button {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    padding: 1.3rem 2.1rem 1.4rem 2.2rem;
+  }
+
+  .submit {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    padding: 1.1rem 0;
+  }
+}
